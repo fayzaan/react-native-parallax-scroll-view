@@ -3,7 +3,7 @@ import { Animated, Dimensions, View, ViewPropTypes } from 'react-native'
 
 const styles = require('./styles')
 
-import { bool, func, number, string } from 'prop-types'
+// import { bool, func, number, string } from 'prop-types'
 
 const window = Dimensions.get('window')
 
@@ -25,24 +25,24 @@ const interpolate = (value, opts) => {
 }
 
 // Properties accepted by `ParallaxScrollView`.
-const IPropTypes = {
-	backgroundColor: string,
-	backgroundScrollSpeed: number,
-	fadeOutForeground: bool,
-	fadeOutBackground: bool,
-	contentBackgroundColor: string,
-	onChangeHeaderVisibility: func,
-	parallaxHeaderHeight: number.isRequired,
-	renderBackground: func,
-	renderContentBackground: func,
-	renderFixedHeader: func,
-	renderForeground: func,
-	renderScrollComponent: func,
-	renderStickyHeader: func,
-	stickyHeaderHeight: number,
-	contentContainerStyle: ViewPropTypes.style,
-	outputScaleValue: number
-}
+// const IPropTypes = {
+// 	backgroundColor: string,
+// 	backgroundScrollSpeed: number,
+// 	fadeOutForeground: bool,
+// 	fadeOutBackground: bool,
+// 	contentBackgroundColor: string,
+// 	onChangeHeaderVisibility: func,
+// 	parallaxHeaderHeight: number.isRequired,
+// 	renderBackground: func,
+// 	renderContentBackground: func,
+// 	renderFixedHeader: func,
+// 	renderForeground: func,
+// 	renderScrollComponent: func,
+// 	renderStickyHeader: func,
+// 	stickyHeaderHeight: number,
+// 	contentContainerStyle: ViewPropTypes.style,
+// 	outputScaleValue: number
+// }
 
 class ParallaxScrollView extends Component {
 	constructor(props) {
@@ -421,7 +421,7 @@ class ParallaxScrollView extends Component {
 	}
 }
 
-ParallaxScrollView.propTypes = IPropTypes
+// ParallaxScrollView.propTypes = IPropTypes
 
 ParallaxScrollView.defaultProps = {
 	backgroundScrollSpeed: 5,

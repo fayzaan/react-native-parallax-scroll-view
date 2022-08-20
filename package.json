@@ -28,6 +28,5 @@
 	"author": "Jack Hsu",
 	"license": "ISC",
 	"dependencies": {
-		"prop-types": "^15.6.0"
 	}
 }
