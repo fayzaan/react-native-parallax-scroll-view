@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Animated, Dimensions, View, ViewPropTypes } from 'react-native'
+import { Animated, Dimensions, View } from 'react-native'
 
 const styles = require('./styles')
 
